@@ -11,6 +11,6 @@ document.getElementById("Registeration").addEventListener('submit', function (ev
     localStorage.setItem("login", JSON.stringify(data))
     console.log(data);
     console.log(userarr);
-    window.location.href = "home.html";
+    // window.location.href = "home.html";
 })
 
